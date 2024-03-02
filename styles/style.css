@@ -151,6 +151,13 @@ form>button {
     font-weight: 800;
 
 }
+.tour-content-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 
 
 /* your destination  */
@@ -358,7 +365,7 @@ button {
 }
 
 /* footer section */
-footer{
+footer {
     background: rgba(19, 19, 24, 0.05);
 }
 
@@ -380,7 +387,26 @@ footer{
     font-size: 32px;
     font-weight: 800;
     margin-left: 10px;
+}
 
+.footer-icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+
+.footer-horizontal {
+    margin: 50px 284px 20px 284px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.rights {
+    text-align: center;
+    padding-bottom: 100px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 /* media quary for sm device */
@@ -470,7 +496,14 @@ footer{
 
     .save-up-to>h4 {
         font-size: 21.138px;
-      
+
+    }
+
+    footer{
+        padding: 20px;
+    }
+    .footer-horizontal {
+        margin: 20px;
     }
 
 
