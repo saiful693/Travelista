@@ -23,6 +23,13 @@ main {
     background: #FF5400;
 }
 
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
 /* header styles */
 nav {
     display: flex;
@@ -130,7 +137,7 @@ form>button {
     font-weight: 800;
 }
 
-.tour-content-description {
+.section-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -146,7 +153,67 @@ form>button {
 }
 
 
+/* your destination  */
 
+.destination-container {
+    margin-top: 6.25rem;
+    text-align: center;
+}
+
+.row-1 {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.row-2 {
+    margin-top: 24px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 0.789fr 1fr 0.578fr;
+}
+
+.row-3 {
+    margin-top: 24px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 0.702fr 1fr;
+}
+
+.box {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.img-text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+
+}
+
+/* choose us */
+.choose-us {
+    margin-top: 6.25rem;
+    text-align: center;
+}
+
+.card-container .card>img {
+    width: 64px;
+    height: 64px;
+}
+.card-container{
+    display: flex;
+}
+.card{
+    border: 1px solid tomato;
+}
 
 
 
@@ -189,10 +256,26 @@ form>button {
     }
 
     /* popular tour section */
-    .popular-tours-container{
+    .popular-tours-container {
         margin: 20px;
     }
-    .tour-img>img{
+
+    .tour-img>img {
         width: 100%;
     }
+
+    /* destination section */
+    .row-1,
+    .row-2,
+    .row-3 {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .box>img {
+        width: 100%;
+    }
+
+
+
 }
