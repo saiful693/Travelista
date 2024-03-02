@@ -201,6 +201,11 @@ form>button {
 /* choose us */
 .choose-us {
     margin-top: 6.25rem;
+
+}
+
+.choose-us>.section-title,
+.section-description {
     text-align: center;
 }
 
@@ -208,12 +213,62 @@ form>button {
     width: 64px;
     height: 64px;
 }
-.card-container{
+
+.card-container {
+    margin-top: 40px;
     display: flex;
+    gap: 24px;
 }
-.card{
-    border: 1px solid tomato;
+
+.card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
 }
+
+.card-description {
+    color: #5A5A5D;
+    font-size: 16px;
+}
+
+.card-1 {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.center-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    
+
+}
+
+
+.center-card .card>img {
+    width: 64px;
+    height: 64px;
+}
+
+.card-3 {
+
+    width: 35.81rem;
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+/* newslatter section */
 
 
 
@@ -225,7 +280,8 @@ form>button {
 
     nav,
     nav>ul,
-    .popular-tours-container {
+    .popular-tours-container,
+    .card-container  {
         flex-direction: column;
     }
 
